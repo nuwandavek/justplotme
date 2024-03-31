@@ -2,7 +2,7 @@
 
 justplotme is a library that uses LLMs to perform the AGI level task of creating plots.
 
-![Demo](./assets/demo.gif)
+![Demo](https://raw.githubusercontent.com/nuwandavek/justplotme/master/assets/demo.gif)
 
 ## Installation
 
@@ -41,7 +41,7 @@ in the notebook.
 
 ## To Do
 - [x] V0 that works on the browser
-- [ ] Release on pypi
+- [x] Release on pypi
 - [ ] Make logging work, less painful
 - [ ] Make justplotme work in VSCode jupyter notebooks
 - [ ] Support more LLMs
