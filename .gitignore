@@ -3,6 +3,7 @@ node_modules
 dist
 .DS_Store
 plotme_old
+sample_data.csv
 
 # Python
 __pycache__

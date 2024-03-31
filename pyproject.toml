@@ -5,8 +5,18 @@ build-backend = "hatchling.build"
 [project]
 name = "plotme"
 version = "0.0.0"
-dependencies = ["anywidget"]
+dependencies = [
+  "anywidget",
+  "bs4",
+  "markdown",
+  "openai",
+  "pandas",
+  "plotly",
+]
 readme = "README.md"
+authors = [
+  {name = "nuwandavek", email = "vivekaithal44@gmail.com"},
+]
 
 [project.optional-dependencies]
 dev = ["watchfiles", "jupyterlab"]

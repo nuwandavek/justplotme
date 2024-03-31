@@ -1,23 +1,116 @@
-.plotme-counter-button {
-	background: linear-gradient(
-		300deg,
-		#9933ff 33.26%,
-		#ff6666 46.51%,
-		#faca30 59.77%,
-		#00cd99 73.03%,
-		#00ccff 86.29%
-	);
-	border-radius: 10px;
-	border: 0;
-	color: white;
-	cursor: pointer;
-	font-family: "Roboto", sans-serif;
-	font-size: 2em;
-	margin: 10px;
-	padding: 10px 20px;
-	transition: transform 0.25s ease-in-out;
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+#main-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
 }
 
-.plotme-counter-button:hover {
-	transform: scale(1.05);
+#chat-list-container{
+  max-height: 400px;
+  overflow-y: scroll;
+}
+#input-container{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+}
+#chat-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+  padding: 5px;
+}
+#plot-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 5px;
+  min-height: 400px;
+}
+.chat-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.role-user{
+  justify-content: flex-end;
+}
+
+.role-assistant{
+  justify-content: flex-start;
+}
+
+.role-chat-user{
+  background: #ddd;
+  color: #000;
+}
+
+.role-chat-assistant{
+  background: #2d3436;
+  color: #fff;
+}
+
+.message-div{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  min-width: 40%;
+  max-width: 60%;
+  border-radius: 5px;
+}
+
+.message-p{
+  margin: 0px 10px 0px 10px;
+  padding: 10px;
+}
+
+#input-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+  padding: 5px;
+}
+
+#input-box{
+  flex: 4;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#input-button{
+  flex: 1;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #2980b9;
+  color: #fff;
+  cursor: pointer;
+  border: 0px;
+}
+
+#plotme {
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 400px;
+}
+
+#plotme-p {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
