@@ -18,7 +18,7 @@ from typing import Dict, List
 from .llm import LLM
 
 try:
-    __version__ = importlib.metadata.version("plotme")
+    __version__ = importlib.metadata.version("justplotme")
 except importlib.metadata.PackageNotFoundError:
     __version__ = "unknown"
 

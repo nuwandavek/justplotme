@@ -98,7 +98,7 @@
   border: 0px;
 }
 
-#plotme {
+#justplotme {
   padding: 0px;
   margin: 0px;
   font-size: 40px;
@@ -107,7 +107,7 @@
   line-height: 400px;
 }
 
-#plotme-p {
+#justplotme-p {
   font-size: 15px;
   font-weight: bold;
   position: absolute;

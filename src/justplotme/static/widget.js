@@ -61,11 +61,11 @@ function initComponents(model, el){
   let inputContainer = createElement("div", "input-container", []);
   let inputBox = createElement("input", "input-box", []);
   let inputButton = createElement("button", "input-button", []);
-  let plotMeP = createElement("p", "plotme-p", []);
+  let plotMeP = createElement("p", "justplotme-p", []);
   
   chatListContainer.innerHTML = "";
-  plotContainer.innerHTML = "<p id='plotme'>plotme</p>";
-  plotMeP.innerHTML = "plotme";
+  plotContainer.innerHTML = "<p id='justplotme'>justplotme</p>";
+  plotMeP.innerHTML = "justplotme";
   inputButton.innerHTML = "<i class='bx bxs-send'></i>";
   inputButton.onclick = () => {
     let message = document.getElementById("input-box").value;
